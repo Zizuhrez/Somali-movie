@@ -1,10 +1,3 @@
-@import url(https://pro.fontawesome.com/releases/v5.11.2/css/all.css);
-:root {
-  --user-button-circle: rgba(0, 0, 0, 0.025);
-  --user-button-cardborder: rgba(255, 255, 255, 0.25);
-  --user-button-text: #323133;
-  --user-button-shadow: rgba(0, 0, 0, 0.1);
-}
 
 body #user-button {
   z-index: 1000;
@@ -435,8 +428,32 @@ body{
   background-image: url(BIRD.GIF);
   
   background-size: cover;
+  
  
 }
 a:hover{
   color:gold; transition: 300ms;
+}
+
+
+@media (max-width: 768px) {
+  .option {
+    height: 300px;
+    width: 100px;
+  }
+
+  .main {
+    font-size: 18px;
+  }
+
+  .sub {
+    font-size: 12px;
+  }
+
+  
+
+  
+
+  
+  
 }
